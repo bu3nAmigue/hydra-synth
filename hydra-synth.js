@@ -12,6 +12,8 @@ const Generator = require('./src/generator-factory.js')
 // to do: add ability to pass in certain uniforms and transforms
 class HydraRenderer {
 
+  console.log("HOLA SOLCHA!!! ")
+
   constructor ({
     pb = null,
     width = 1280,
